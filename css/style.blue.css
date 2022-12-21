@@ -212,7 +212,7 @@ a.contact-item .contact-item-title, a.contact-item p {
 }
 
 .text-shadow {
-  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 2px 0 black;
 }
 
 .text-shadow-primary {

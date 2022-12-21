@@ -1,3 +1,17 @@
+/** THE MAIN BLUE USED IS
+
+#2b90d9
+
+
+Classes I created so far:
+
+portfolio-thumbnail
+text/text2
+
+**/
+
+
+
 .wrapper{
   width:1400px;
   margin:0 auto;
@@ -12,7 +26,7 @@
   border-radius: 15px;
   box-sizing: border-box;
   position:relative;
-  background: lightyellow;
+  background: lightblue;
 
 }
 
@@ -20,7 +34,7 @@
   max-width:100%;
     margin: auto;
 }
-
+/**
 .portfolio-thumbnail2{
   float:left;
   width:40%;
@@ -31,6 +45,10 @@
   position:relative;
   background: lightblue;
 }
+
+Use this if i want to go back to having two different color buttons
+
+**/
 
 .portfolio-thumbnail2 img{
   max-width:100%;
@@ -58,15 +76,17 @@ figcaption::after {
 .text {
 	position: absolute;
 	font-family: "Work Sans";
-	font-size:25px;
+	font-size:40px;
     vertical-align: middle;
     line-height: 200em;
 	font-style: bold;
 	color: gray;
-	background-color:rgba(150,223,255,0.7);
+	background-color: #edeff0;
 	width: 100%;
 	line-height:50px;
-	text-align: left;
+    padding-top: 65px;
+	text-align: center;
+    text-shadow: 1px 1px black;
 	z-index:10;
 	opacity: 0;
   display:block;
@@ -77,6 +97,7 @@ figcaption::after {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     }
+/** not using this rn
 
 .text2 {
 	position: absolute;
@@ -87,7 +108,7 @@ figcaption::after {
 	background-color:lightyellow;
 	width: 100%;
 	line-height:50px;
-	text-align: right;
+	text-align: center;
 	opacity: 0;
   display:block;
   height:100%;
@@ -97,7 +118,7 @@ figcaption::after {
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     }
-
+**/
 
 
 
